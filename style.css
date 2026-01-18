@@ -17,23 +17,24 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 
 .choice {   
     max-height: 15%;
-    max-width: 12%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30%;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .choice:hover {
-    transform: scale(1.1);
+    transform: scale(1.10);
     filter: drop-shadow(5px 15px rgba(150, 146, 146, 0.2));
 }
 
 img {
     width: 100%;
+    height: auto;
     display: block;
 }
 
